@@ -1,0 +1,155 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+}
+
+h1 {
+  display: none;
+}
+
+header li {
+  display: inline;
+  padding: 10px;
+  text-decoration:underline;
+}
+
+a {
+  color: seashell;
+}
+
+header img {
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+
+header nav {
+  float: right;
+}
+
+footer, main {
+  position: relative;
+  top: 69px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mission {
+  background-image: url("images/img-mission-background.jpg");
+  background-position:center;
+  margin: auto;
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+}
+
+#mission div {
+  background-color: black;
+  width: 100%;
+}
+
+#mission h2 {
+  margin: 12px;
+}
+
+#mission h4 {
+  padding-top: 18px;
+  margin: 12px;
+}
+
+#tea h2 {
+  margin-top: 70px;
+}
+
+.gallery {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tea-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.tea-item h4 {
+  margin: 10px 0px 20px 0px;
+}
+
+.tea-item img {
+  width: 300px;
+  height: 200px;
+  margin: 0px 15px;
+}
+
+#locations {
+  background-image: url("images/img-locations-background.jpg");
+  background-position: top;
+  width: 1200px;
+  height: 570px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+}
+
+#locations h2 {
+  margin-top: 75px;
+}
+
+.locations-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.location {
+  background-color: black;
+  margin-right: 40px;
+  width: 300px;
+}
+
+footer div {
+  height: 200px;
+}
+
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: normal;
+  margin: 10px;
+}
+
+footer h2 {
+  margin-top: 10px;
+}
+
+footer small {
+  margin-left: 20px;
+  display: block;
+  text-align: left;
+}
